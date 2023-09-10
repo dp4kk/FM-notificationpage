@@ -11,7 +11,7 @@ const Homepage = () => {
   const [readNotification,setReadNotification] =useState(false)
   return (
     <div className="flex min-h-screen justify-center items-center bg-gray-200">
-      <div className="w-[80%] max-w-[550px]  bg-white rounded-lg p-6">
+      <div className="w-[100%] sm:w-[80%] max-w-[550px]  bg-white rounded-lg p-6">
         <div className="flex justify-between items-center">
           <p className="text-lg font-semibold">
             Notifications{" "}
